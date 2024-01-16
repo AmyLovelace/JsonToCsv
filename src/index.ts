@@ -8,8 +8,8 @@ app.get('/api', async (req: Request, res: Response) => {
   try {
     await apiCall(res);
   } catch (error) {
-    console.error('Error al llamar a la API:', error);
-    res.status(500).json({ error: 'Error al llamar a la API' });
+    console.error('Error calling API:', error);
+    res.status(500).json({ error: 'Error calling API' });
   }
 });
 

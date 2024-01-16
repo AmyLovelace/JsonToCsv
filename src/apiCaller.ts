@@ -39,7 +39,7 @@ function addToCSV(newData: ApiData): void {
  if (!fileExist) {
     csvData += 'Quote;Title\n'; 
 }
- csvData += `quote;${newData.quote}\n`;
+ csvData += `content;${newData.quote}\n`;
  //csvData += `${newData.title};${newData.quote}\n`; 
 
 
