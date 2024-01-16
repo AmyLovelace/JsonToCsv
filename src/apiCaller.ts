@@ -37,9 +37,9 @@ function addToCSV(newData: ApiData): void {
 
  let csvData = '';
  if (!fileExist) {
-    csvData += 'Quote;Title\n'; 
+    csvData += 'Content;Title;Blankspace\n'; 
 }
- csvData += `content;${newData.quote}\n`;
+ csvData += `Quote;${newData.quote}\n`;
  //csvData += `${newData.title};${newData.quote}\n`; 
 
 
