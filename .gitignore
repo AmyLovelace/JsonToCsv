@@ -1,0 +1,33 @@
+# Compilation Outputs
+/*.js
+/*.js.map
+
+# Node Modules
+node_modules/
+
+# IDE and Editor Configurations
+.vscode/
+.idea/
+
+# Environment Configuration
+.env
+.env.local
+.env.*.local
+
+# TypeScript Build Information
+dist/
+*.tsbuildinfo
+
+# Other Common Exclusions
+*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+lib-cov
+coverage
+.nyc_output
+.grunt
+bower_components
+.nyc_output
+tsd-debug.log

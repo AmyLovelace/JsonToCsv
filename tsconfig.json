@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2020",                   /* Versión ECMAScript a la que se compilará el código TypeScript */
+    "module": "commonjs",                 /* Sistema de módulos (CommonJS para Node.js) */
+    "strict": true,                       /* Habilita todas las opciones estrictas de verificación de tipos */
+    "esModuleInterop": true,               /* Facilita el soporte para la importación de módulos CommonJS en TypeScript */
+    "skipLibCheck": true,                  /* Evita la verificación de tipos en archivos de definición (.d.ts) */
+    "forceConsistentCasingInFileNames": true, /* Garantiza consistencia en la escritura de nombres de archivos */
+    "outDir": "./dist",                    /* Carpeta de salida para los archivos compilados */
+    "rootDir": "./src",                    /* Carpeta raíz para los archivos fuente TypeScript */
+    "removeComments": true,                /* No incluir comentarios en los archivos de salida */
+    "baseUrl": "./",                       /* Base URL para resolver módulos */
+    "paths": {
+      "*": ["node_modules/*", "src/types/*"]
+    }                                     /* Mapeo de rutas para facilitar la importación de módulos */
+  },
+  "include": [
+    "src/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
